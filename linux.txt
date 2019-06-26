@@ -1,1 +1,41 @@
+Linux challenge
 
+[Task 1]
+-cd recuit/Desktop
+-mkdir myProject
+-cd myProject
+-touch app.js
+-cd ..
+-mkdir myProject2
+-cd myProject
+-cp app.js cd ../myProject2
+
+[Task 2]
+-cd recuit
+-touch exercise.txt
+-mv exercise.txt /tmp
+-rm -f /tmp/exercise.txt
+
+[Task 3]
+-touch cohort.txt
+-toouch umuzi.txt
+-touch recruits.txt
+-cat *.txt
+-cat *.txt >> summary.txt
+
+[Task 4]
+-sudo updatedb
+-locate umuzi
+-locate umuzi > search_result.txt
+
+[Task 5]
+-mkdir mydocument
+-cd mydocument
+-touch pad.txt
+-cd ..
+-mkdir work
+-cd work
+-cp -R mydocument/pad.txt work/pad_copy.txt
+-sudo updatedb
+-cd ../mydocument
+-locate pad_copy.txt

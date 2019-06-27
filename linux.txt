@@ -39,3 +39,12 @@ Linux challenge
 -sudo updatedb
 -cd ../mydocument
 -locate pad_copy.txt
+
+[Task 6]
+-mkdir AC(make directory for all files)
+-find -type f -name "*.pdf" -exec cp {} / AC \;
+
+[Task 7]
+-touch my_bio.txt
+-mkdir my_files
+-mv my_bio.txt my_files 
